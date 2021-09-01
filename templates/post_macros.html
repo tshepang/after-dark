@@ -7,8 +7,9 @@
         <header>
             <h2 itemprop="name">
                 <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+                <br>
+                <span class="muted">{{ self::meta(page=page) }}</span>
             </h2>
-            <span class="muted">{{ self::meta(page=page) }}</span>
         </header>
         {% if page.summary %}
             <div itemprop="summary">
