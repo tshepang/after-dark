@@ -206,8 +206,6 @@ a:hover {
 
 .hack,
 .hack blockquote,
-.hack code,
-.hack em,
 .hack h1,
 .hack h2,
 .hack h3,
@@ -387,12 +385,6 @@ a:hover {
   line-height: 20px
 }
 
-.hack em:after,
-.hack em:before {
-  content: "*";
-  display: inline
-}
-
 .hack pre code:after,
 .hack pre code:before {
   content: none
@@ -400,12 +392,6 @@ a:hover {
 
 .hack code {
   font-weight: 700
-}
-
-.hack code:after,
-.hack code:before {
-  content: "`";
-  display: inline
 }
 
 .hack hr {
